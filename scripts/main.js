@@ -2,9 +2,9 @@
 //añado todas mis variables
 const counter = document.querySelector('.counter');
 const input = document.querySelector('.input-game');
-
 const btn = document.querySelector('.btn');
 const feedback = document.querySelector('.feedback');
+let userNumber = input.value;
 
 //declaro funcion de random number
 function getRandomNumber(max) {
@@ -15,6 +15,7 @@ let winnerNumber = getRandomNumber(100);
 console.log(winnerNumber);
 
 function checkUsernumber () {
+
   if (userNumber === winnerNumber) {
     feedback.innerHTML = `¡HAS GANADO, CAMPEONA!`;
   }
@@ -23,12 +24,12 @@ function checkUsernumber () {
     feedback.innerHTML = `demasiado alto`;
   }
 
-  else (userNumber < winnerNumber) {
+  else  {
     feedback.innerHTML = `demasiado bajo`;
   }
 }
 
-//declaro evento
+//declaro y ejecuto evento
 btn.addEventListener('click', checkUsernumber)
 
 
