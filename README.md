@@ -7,9 +7,9 @@ m2-evaluacion-intermedia-andreina-proyectos created by GitHub Classroom
     -button (btn), que va a tener un event listener porque activa todo el juego, estara vigilado todo el tiempo
     -el p llamado feedback, porque ahi cambian cosas
 
-2.Cuando el usuario entra, lo primero que se ejecuta es una funcion que genera un numero random
+2.Cuando el usuario entra, lo primero que se ejecuta es una funcion que genera un numero random (winnerNumber)
 
-3- Tengo que coger ese numero random y meterlo en un contenedor, como una variable, y eso lo voy a comparar con el que introduzca el usuario. Habria que poner un if?
+3- Tengo que coger ese numero random y meterlo en un contenedor, como una variable, y eso lo voy a comparar con el que introduzca el usuario (userNumber). Habria que poner un if?
 
 5- al pulsar el botón de "prueba", acceder al contenido del input y mostrarlo en la consola. Es decir, que hago input.innerHTML = HAGO VARIABLE PARA COMPROBAR
 
