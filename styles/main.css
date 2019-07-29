@@ -9,14 +9,27 @@
   justify-content: center;
   padding:30px;
   background-color: green;
-}
-.title {
-font-size: 30px;
+  .title {
+    font-size: 30px;
+    }
 }
 
-.input {  
-  width:100px;
-  height:30px;}
+
+.game__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.input-game {  
+  width: 200px;
+  height:10px;
+  padding:20px;
+  margin:20px;
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid black;
+}
 
 .counter__container {
   
@@ -41,17 +54,20 @@ font-size: 30px;
 }
 
 .btn {
-  width:100px;
+  width:150px;
   height:30px;
   border-radius: 10px;
   border:2px solid black;
   font-size: 20px;
-  background-color:lightyellow;
+  background-color: yellow;
+  margin:20px;
+
 }
 
 .feedback {
   background-color: yellowgreen;
   border:2px solid black;
+  border-style: dotted;
   margin:40px;
   width:400px;
   text-align: center;
