@@ -4,7 +4,7 @@ const counter = document.querySelector('.counter');
 const input = document.querySelector('.input-game');
 const btn = document.querySelector('.btn');
 const feedback = document.querySelector('.feedback');
-let userNumber = input.value;
+
 
 //declaro funcion de random number
 function getRandomNumber(max) {
@@ -14,8 +14,10 @@ function getRandomNumber(max) {
 let winnerNumber = getRandomNumber(100);
 console.log(winnerNumber);
 
-function checkUsernumber () {
 
+
+const checkUsernumber = () => {
+  let userNumber = parseInt(input.value);
   if (userNumber === winnerNumber) {
     feedback.innerHTML = `¡HAS GANADO, CAMPEONA!`;
   }
@@ -27,6 +29,8 @@ function checkUsernumber () {
   else  {
     feedback.innerHTML = `demasiado bajo`;
   }
+  counter = counter + 1;
+
 }
 
 //declaro y ejecuto evento
