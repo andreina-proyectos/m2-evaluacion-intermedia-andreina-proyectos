@@ -4,4 +4,5 @@ function getRandomNumber(max) {
   return Math.ceil(Math.random() * max);
 }
 //ejecuto funcion de random number
-= getRandomNumber(100);
+let winnerNumber = getRandomNumber(100);
+console.log(winnerNumber);
