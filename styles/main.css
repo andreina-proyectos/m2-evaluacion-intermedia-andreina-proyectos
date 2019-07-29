@@ -7,10 +7,27 @@
 .header {
   display: flex;
   justify-content: center;
-  margin:30px;
+  padding:30px;
+  background-color: green;
 }
 .title {
 font-size: 30px;
+}
+
+.input {  
+  width:100px;
+  height:30px;}
+
+.counter__container {
+  
+}
+.counter {
+  background-color:white;
+  border-radius: 50px;
+  width:60px;
+  height: 60px;
+  text-align: center;
+  border:1px solid black;
 }
 
 .main {
@@ -21,5 +38,21 @@ font-size: 30px;
   align-items: center;
   font-size: 30px;
   flex-direction: column;
+}
 
+.btn {
+  width:100px;
+  height:30px;
+  border-radius: 10px;
+  border:2px solid black;
+  font-size: 20px;
+  background-color:lightyellow;
+}
+
+.feedback {
+  background-color: yellowgreen;
+  border:2px solid black;
+  margin:40px;
+  width:400px;
+  text-align: center;
 }
