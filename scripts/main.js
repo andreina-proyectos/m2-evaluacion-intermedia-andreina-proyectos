@@ -14,7 +14,7 @@ function getRandomNumber(max) {
 let winnerNumber = getRandomNumber(100);
 console.log(winnerNumber);
 
-function funcionquevoyaejecutar () {
+function checkUsernumber () {
   if (userNumber === winnerNumber) {
     feedback.innerHTML = `¡HAS GANADO, CAMPEONA!`;
   }
@@ -29,6 +29,6 @@ function funcionquevoyaejecutar () {
 }
 
 //declaro evento
-btn.addEventListener('click',funcionquevoyaejecutar)
+btn.addEventListener('click', checkUsernumber)
 
 
