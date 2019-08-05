@@ -1,6 +1,7 @@
 # m2-evaluacion-intermedia-andreina-proyectos
-m2-evaluacion-intermedia-andreina-proyectos created by GitHub Classroom
-/*¿Qué quiero hacer?
+Ejercicio de evaluación intermedia del módulo 2 de Adalab ❣️. Antes de empezar, hice el siguiente esquema del plan a ejecutar:
+
+¿Qué quiero hacer?
 1.Debo recoger del html las constantes y variables con las que voy a trabajar. En este caso recojo:
     -el contador porque interacciona con mi juego
     -el input value porque va a ser el numero que meta el usuario
@@ -20,4 +21,3 @@ m2-evaluacion-intermedia-andreina-proyectos created by GitHub Classroom
 6-if numeroDeUsuario < numeroRandom --->intenta con numero mas alto
 
 7- meter numero de intentos dentro de contador --> contador.innerHTML 
-*/
